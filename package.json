@@ -55,7 +55,10 @@
     "react-dom": "^18.2.0"
   },
   "volta": {
-    "node": "16.15.1"
+    "node": "20.11.1"
   },
-  "author": "Ixartz (https://github.com/ixartz)"
+  "author": "Ixartz (https://github.com/ixartz)",
+  "engines": {
+    "node": ">=20.11.1"
+  }
 }
