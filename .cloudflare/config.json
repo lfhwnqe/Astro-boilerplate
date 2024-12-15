@@ -1,9 +1,10 @@
 {
   "build": {
-    "command": "npm run build",
+    "command": "npm install && npm run build",
     "output": "dist",
     "environment": {
-      "NODE_VERSION": "20.11.1"
+      "NODE_VERSION": "20.11.1",
+      "NPM_FLAGS": "--no-audit --no-fund"
     }
   }
 }
