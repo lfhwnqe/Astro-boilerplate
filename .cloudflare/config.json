@@ -1,6 +1,6 @@
 {
   "build": {
-    "command": "npm install && npm run build",
+    "command": "mkdir -p dist && npm install && npm run build",
     "output": "dist",
     "environment": {
       "NODE_VERSION": "20.11.1",
